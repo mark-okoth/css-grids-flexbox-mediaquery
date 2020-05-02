@@ -1,8 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
     background:BLACK;
@@ -148,10 +147,14 @@ padding: 40px;
 .about-section{
     grid-area: about-section;
     text-align: center;
-    background: black;
+    /* background: black; */
+    color: black;
+    border: 3px solid gold;
     max-width: 700px;
+    max-height: 400px;
+    overflow:scroll;
     margin-top:50px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .form-group label{
@@ -163,7 +166,7 @@ padding: 40px;
     padding: 10px;
     text-decoration: none;
     color: gold;
-    border:1px solid gold;
+    border:1px solid rgb(170, 218, 95);
 }
 .form-group input{
   padding:10px;
@@ -174,7 +177,7 @@ padding: 40px;
   border-bottom: 1px solid blue;
   background:black;
   color:white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 #submit-doc{
     margin-top: 20px;
@@ -190,7 +193,7 @@ padding: 40px;
 .languages-content{
     display: grid;
     grid-gap: 1rem;
-    margin-left: 30px;
+    margin-left: 20px;
     grid-template-areas: 
     'figure1 figure2 figure3'
 }
@@ -240,3 +243,35 @@ summary{
 footer{
     background: #fff;
 }
+
+.form-group input:focus{
+    background: rgb(203, 236, 247);
+  }
+
+  textarea{
+      background:black;
+      /* border-radius: 15px; */
+      color: #fff;
+  }
+
+  footer a{
+      text-align: center;
+     color: black;
+     border-radius: 50%;
+     border:1px solid gold;
+    /* padding: px; */
+  }
+
+  /* footer a:hover{ 
+      color:rgb(7, 171, 226);
+  } */
+
+  .fa-facebook-f:hover{
+      color: blue;
+  }
+ .fa-youtube:hover{
+     color: red;
+ }
+  a .fa-twitter:hover{
+    color:rgb(7, 171, 226);
+ }
