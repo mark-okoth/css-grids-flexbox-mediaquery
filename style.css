@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     background:BLACK;
@@ -51,11 +51,11 @@ li a{
 
 .services-container{
     display:grid;
-    margin-right: 50px;
+    margin-right: 20px;
     color: black;
-    margin-left: 50px;
+    margin-left: 20px;
     text-align: center;
-    grid-gap: 1rem;
+    grid-gap: 10px;
     grid-template-areas:
     'services-details services-details services-details'
     'services1 services2 services3';
@@ -70,19 +70,19 @@ li a{
 grid-area: services1;
 margin-top:20px;
 border: 2px solid gold;
-padding: 40px;
+padding: 30px;
 }
 .services2{
     grid-area: services2;
     margin-top:20px;
     border: 2px solid gold;
-    padding: 40px;
+    padding: 30px;
 }
 .services3{
     grid-area: services3;
     margin-top:20px;
     border: 2px solid gold;
-    padding: 40px;
+    padding: 30px;
 }
 
 #portfolio-section{
@@ -93,8 +93,8 @@ padding: 40px;
     color: gold;
     grid-gap:1rem;
     text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
     grid-template-areas: 
     'header-portfolio header-portfolio header-portfolio'
     'portfolio1 portfolio2 portfolio3'
@@ -129,9 +129,9 @@ padding: 40px;
 .contact-container{
     display: grid;
     color:gold;
-    margin-right: 50px;
+    margin-right: 20px;
     grid-gap: 1em;
-    margin-left: 50px;
+    margin-left: 20px;
     grid-template-areas: 
     'about-section contact'
 }
@@ -192,7 +192,7 @@ padding: 40px;
 
 .languages-content{
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 10px;
     margin-left: 20px;
     grid-template-areas: 
     'figure1 figure2 figure3'
@@ -202,7 +202,7 @@ padding: 40px;
     grid-area: figure1;
     border: 1px solid gold;
     text-align: center;
-    max-width:370px;
+    /* max-width:370px; */
     margin-top:10px;
 }
 
@@ -210,7 +210,7 @@ padding: 40px;
     grid-area: figure2;
     border: 1px solid gold;
     text-align: center;
-    max-width:370px;
+    /* max-width:370px; */
     margin-top:10px;
 }
 
@@ -218,7 +218,7 @@ padding: 40px;
     grid-area: figure3;
     border: 1px solid gold;
     text-align: center;
-    max-width:370px;
+    max-width:400px;
     margin-top:10px;
 }
 
@@ -250,12 +250,16 @@ footer{
 
   textarea{
       background:black;
-      /* border-radius: 15px; */
       color: #fff;
+      width:105%;
   }
+  textarea:focus{
+    background: rgb(203, 236, 247);
+    color: #fff;
+}
 
   footer a{
-      text-align: center;
+    text-align: center;
      color: black;
      border-radius: 50%;
      border:1px solid gold;
