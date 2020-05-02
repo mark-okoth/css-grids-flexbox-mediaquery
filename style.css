@@ -232,9 +232,9 @@ summary{
     margin-top: 20px;
 }
 
-.languages p{
+/* .languages p{
     padding: 5px;
-}
+} */
 
 #tech{
     min-height: 400px;
@@ -279,3 +279,7 @@ footer{
   a .fa-twitter:hover{
     color:rgb(7, 171, 226);
  }
+
+img{
+    width: 200px;
+}
