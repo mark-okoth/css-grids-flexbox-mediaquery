@@ -284,3 +284,34 @@ footer ul{
     color:rgb(7, 171, 226);
  }
 
+@media(max-width:478px){
+  .services-container, .portfolio-content, .contact-container{
+      display: flex;
+      flex-direction:column ;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .services1, .services2, .services3{
+       margin: 10px;
+  }
+  .services3{
+      margin-bottom: 20px;
+  }
+
+  .portfolio1,.portfolio2, .portfolio3{
+    margin: 10px;
+  }
+  #contact-form{
+      width: 100%;
+  }
+  .contact-container{
+      width: 100%;
+  }
+  input{
+      width: 100%;
+      
+  }
+
+}
+
