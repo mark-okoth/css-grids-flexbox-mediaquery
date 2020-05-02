@@ -284,7 +284,7 @@ footer ul{
     color:rgb(7, 171, 226);
  }
 
-@media(max-width:478px){
+@media(max-width:600px){
   .services-container, .portfolio-content, .contact-container, .languages-content{
       display: flex;
       flex-direction:column ;
