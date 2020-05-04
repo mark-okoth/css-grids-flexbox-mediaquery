@@ -322,9 +322,29 @@ footer ul{
       padding: 10px;
   }
 
+nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background:transparent;
+    margin-top: 0px;
+}
+
+nav ul li{
+    padding: 5px;
+}
+nav ul li:hover{
+    background:black;
+    width: 100%;
+}
+.nav-container{
+    margin-top: 30px;
+}
 }
 
 blockquote{
     font-style: italic;
     padding: 10px;
 }
+
