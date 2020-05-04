@@ -200,6 +200,7 @@ padding: 30px;
     border: 1px solid gold;
     text-align: center;
     margin-top:10px;
+    padding: 10px;
 }
 
 #figure2{
@@ -228,7 +229,7 @@ summary{
 }
 
 #tech{
-    min-height: 400px;
+    min-height: 300px;
 }
 
 footer{
@@ -323,3 +324,7 @@ footer ul{
 
 }
 
+blockquote{
+    font-style: italic;
+    padding: 10px;
+}
